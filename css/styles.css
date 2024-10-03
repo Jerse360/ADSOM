@@ -1,0 +1,154 @@
+/*Pseudo-clase*/
+:root {
+    --primario: #39A900; /*verde corporativo*/
+    --secundario: #007832; /*verde oscuro*/
+    --blanco: #FFFFFF;
+    --oscuro: #000000;
+    --gris: #F6F6F6;
+    --fuente-principal: 3.8rem; /* 10 px = 1rem*/
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Work Sans';
+}
+
+h1 span {
+    font-size: 2rem;
+}
+
+h1 {
+    color: var(--primario);
+    text-align: center;
+    font-size: var(--fuente-principal);
+}
+
+h2 {
+    color: #39A900;
+    text-align: center;
+    font-size: 2.8rem;
+}
+
+h3 {
+    color: #39A900;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+p {
+}
+
+form {
+}
+
+/*Clase*/
+.cliente {
+}
+
+/* . para clase*/
+.titulo {
+    color: var(--primario);
+    font-size: var(--fuente-principal); 
+    font-family: 'krub', Arial, Helvetica, sans-serif; /* '' para obtener fuente externa*/
+    text-align: center;
+}
+
+.titulo span {
+    font-size: 2rem;
+}
+
+h1.titulo span { /*Especificidad da prioridad a las que tienen más parámetros*/
+    font-size: 2rem;
+    color: var(--secundario);
+}
+
+.navegacion-principal {
+    background-color: var(--secundario);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.navegacion-principal a {
+    display: inline;
+    text-decoration: none;
+    color: var(--blanco);
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.navegacion-principal a:hover {
+    background-color: var(--primario);
+    color: var(--oscuro);
+}
+
+.contenedor {
+    width: 120rem; /*1200 px*/
+    margin: 0 auto;
+}
+
+.bg-nav {
+    background-color: var(--secundario);
+}
+
+.bg {
+    background-image: url(../Images/foto_clem2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 410px;
+    position: relative;
+    top: 0;
+}
+
+.contenido-bg {
+    position: absolute;
+    background-color: rgba(0, 0, 0, .6);
+    background-color: rgba(0 0 0 /70%);
+    width: 100%;
+    height: 100%;  
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenido-bg h2, .contenido-bg p {
+    color: var(--blanco);
+}
+
+@media (min-width: 480px) {
+    body {
+        background-color: gray;
+    }
+    .navegacion-principal {
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        background-color: orange;
+    }
+}
+
+@media (min-width: 1020px) {
+    body {
+        background-color: red;
+    }
+}
+
+@media (min-width: 1120px) {
+    body {
+        background-color: purple;
+    }
+}
