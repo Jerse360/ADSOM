@@ -1,0 +1,91 @@
+.Margenes {
+    padding: 15px;
+}
+
+.linea-vertical {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    height: 200rem;
+    width: 2px;
+    background-color: black;
+}
+
+.contenedor {
+    position: absolute;
+    top: 32%;
+    left: 21%;
+
+
+}
+
+.borde {
+    padding: 5px;
+    margin: 25px;
+
+    /* other styling */
+    border: solid 2px black;
+}
+
+.titulo_fotos {
+    position: absolute;
+    top: 60%;
+    left: 21%;
+}
+
+.fotos {
+    position: absolute;
+    top: 80%;
+    left: 21%;
+
+}
+
+.service {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.container {
+    width: 120rem;
+    /*1200 px*/
+    margin: 0 auto;
+    /*margin-top: 0;
+   margin-right: auto;
+   margin-bottom: 0;
+   margin-left: auto;
+
+   margin: 0 auto 0 auto;*/
+}
+
+.sombra {
+    -moz-box-shadow: 15px 10px 50px 0px rgba(0, 0, 0, 0.6);
+    box-shadow: 15px 10px 50px 0px rgba(0, 0, 0, 0.6);
+    background-color: var(--white);
+    padding: 2rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.image-container {
+    display: none;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+/* Mostrar la imagen que coincida con el ID del enlace activo */
+.image-container:target {
+    display: block;
+}
+
+/* slider*/
