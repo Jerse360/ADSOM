@@ -1,0 +1,238 @@
+.pantalla-principal-admin,
+.pantalla-principal-admin * {
+  box-sizing: border-box;
+}
+.pantalla-principal-admin {
+  background: #ffffff;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  height: 1080px;
+  position: relative;
+}
+.rectangle-1 {
+  background: #ffffff;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.image-2 {
+  width: 10.99%;
+  height: 17.04%;
+  position: absolute;
+  right: 73.23%;
+  left: 15.78%;
+  bottom: 11.67%;
+  top: 71.3%;
+  object-fit: cover;
+}
+.image-3 {
+  width: 10.99%;
+  height: 17.04%;
+  position: absolute;
+  right: 34.38%;
+  left: 54.64%;
+  bottom: 11.67%;
+  top: 71.3%;
+  object-fit: cover;
+}
+.rectangle-3 {
+  background: #ffffff;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 2px;
+  width: 71.77%;
+  height: 36.76%;
+  position: absolute;
+  right: 13.44%;
+  left: 14.79%;
+  bottom: 32.78%;
+  top: 30.46%;
+}
+.lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-nulla-facilisi-phasellus-sollicitudin-lectus-non-sapien-hendrerit-nec-feugiat-lorem-tincidunt-aenean-imperdiet-orci-vel-urna-accumsan-eget-auctor-ligula-fermentum-integer-vehicula-lorem-vel-egestas-sagittis-dui-magna-vulputate-lorem-a-tincidunt-ligula-nunc-at-est-nam-at-odio-sed-mauris-suscipit-pharetra {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 547px;
+  top: 790px;
+  width: 376px;
+  height: 144px;
+}
+.lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-nulla-facilisi-phasellus-sollicitudin-lectus-non-sapien-hendrerit-nec-feugiat-lorem-tincidunt-aenean-imperdiet-orci-vel-urna-accumsan-eget-auctor-ligula-fermentum-integer-vehicula-lorem-vel-egestas-sagittis-dui-magna-vulputate-lorem-a-tincidunt-ligula-nunc-at-est-nam-at-odio-sed-mauris-suscipit-pharetra2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 1301px;
+  top: 786px;
+  width: 376px;
+  height: 144px;
+}
+.line-1 {
+  width: 1384px;
+  height: 0px;
+  position: absolute;
+  left: 283px;
+  top: 174px;
+  overflow: visible;
+}
+.vector {
+  width: 2.34%;
+  height: 4.26%;
+  position: absolute;
+  right: 4.17%;
+  left: 93.49%;
+  bottom: 89.17%;
+  top: 6.57%;
+  overflow: visible;
+}
+.frame-108 {
+  width: 1378px;
+  height: 396px;
+  position: absolute;
+  left: 284px;
+  top: 330px;
+}
+.image-6 {
+  width: 1378px;
+  height: 397px;
+  position: absolute;
+  left: 0px;
+  top: -1px;
+  object-fit: cover;
+}
+.image-8 {
+  width: 1378px;
+  height: 397px;
+  position: absolute;
+  left: 3686px;
+  top: -1px;
+  object-fit: cover;
+}
+.image-7 {
+  width: 1378px;
+  height: 397px;
+  position: absolute;
+  left: 1843px;
+  top: -1px;
+  object-fit: cover;
+}
+.image-4 {
+  width: 114px;
+  height: 109px;
+  position: absolute;
+  left: 27px;
+  top: 15px;
+  object-fit: cover;
+}
+.saep {
+  color: #000000;
+  text-align: center;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 40px;
+  line-height: 110%;
+  font-weight: 700;
+  position: absolute;
+  left: 171px;
+  top: 49px;
+  width: 112px;
+  height: 48px;
+}
+.line-5 {
+  width: 103px;
+  height: 0px;
+  position: absolute;
+  left: 162px;
+  top: 124px;
+  transform: translate(-9.33px, -108.33px);
+  overflow: visible;
+}
+.button {
+  background: #ffffff;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 2px;
+  padding: 10px 7px 10px 7px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 159px;
+  height: 40px;
+  position: absolute;
+  left: 483px;
+  top: 193px;
+}
+.men {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.button2 {
+  background: #ffffff;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 2px;
+  padding: 10px 7px 10px 7px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 159px;
+  height: 40px;
+  position: absolute;
+  left: 663px;
+  top: 193px;
+}
+.button3 {
+  background: #ffffff;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 2px;
+  padding: 10px 7px 10px 7px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 159px;
+  height: 40px;
+  position: absolute;
+  left: 843px;
+  top: 193px;
+}
+.button4 {
+  background: #ffffff;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 2px;
+  padding: 10px 7px 10px 7px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 159px;
+  height: 40px;
+  position: absolute;
+  left: 304px;
+  top: 193px;
+}
